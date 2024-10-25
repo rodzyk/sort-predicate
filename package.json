@@ -1,0 +1,38 @@
+{
+  "name": "sort-predicate",
+  "description": "A simple utility for creating flexible sorting predicates for arrays of objects in JavaScript and TypeScript.",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "sort",
+    "predicate",
+    "sorting",
+    "utility",
+    "typescript",
+    "javascript",
+    "arrays",
+    "objects"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodzyk/sort-predicate.git"
+  },
+  "author": "@rodzyk",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.8.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
